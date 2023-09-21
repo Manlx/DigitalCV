@@ -19,6 +19,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "types": ["./src/Types/index.d.ts"],
 
     "baseUrl": "./src",
     "paths": {
@@ -34,6 +35,12 @@
 
       "Assets/*": ["./Components/assets/*"],
       "Assets/": ["./Components/assets/"],
+
+      "Types/*": ["./Types/*"],
+      "Types/": ["./Types/"],
+
+      "Configs/*": ["./Configs/*"],
+      "Configs/": ["./Configs/"],
     }
   },
   "include": ["src"],

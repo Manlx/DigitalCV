@@ -12,6 +12,8 @@ const NavItem = styled.div`
   justify-content: center;
   align-items: center;
 
+  cursor: pointer;
+
   &:hover{
     filter:brightness(1.2);
   }
@@ -20,11 +22,9 @@ const NavItem = styled.div`
 const NavContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: var(--ProfileTabExtendSize);
   height: 75%;
   gap: 3rem;
-  /* justify-content:space-evenly; */
-  /* background-color: green; */
 `;
 
 
@@ -42,6 +42,12 @@ export function NavBar(){
         navigate('/CatShowCase');
       }}>
         Feline Flex
+      </NavItem>
+
+      <NavItem onClick={()=>{
+        location.href= 'https://mfdot.com/';
+      }}>
+        Externals
       </NavItem>
     </NavContainer>
   );

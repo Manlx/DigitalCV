@@ -1,17 +1,17 @@
 :root{
   --bodyBackGroundColor : #232323;
-  --profileCardColor    : #22a83f;
-  --profileCardColor    : #229da8;
   --profileCardColor    : #5F8575;
-  /* --profileCardColor    : #c18d6b; */
-  /* --profileCardColor    : #585a78; */
   --infoBlockColor      : #bec5c5;
   --infoBlockColor      : #d9b99b;
   --NavItemColor        : #89796a;
 
   --ProfileHeight: 80vh;
   --ProfileBorderRadius: 0 0 13rem 0;
-  /* --infoBlockColor      : #e4d5b7; */
+  --ProfileTabSize: 3rem;
+  --ProfileMenuWidth: 25rem;
+  --ProfileTabExtendSize: 15rem;
+
+  --SocialItemsRaduis: 5rem;
 }
 
 body {
